@@ -69,7 +69,7 @@ body {
   margin-bottom: 20px;
 }
 
-.open .questions{
+.open .questions {
   font-weight: bold;
 }
 
@@ -121,11 +121,11 @@ body {
 
 .image_box {
   position: fixed;
-    margin-left: -140px;
-    margin-top: 158px;
+  margin-left: -140px;
+  margin-top: 158px;
 }
 
-.womenMobile{
+.womenMobile {
   display: none;
 }
 
@@ -141,19 +141,19 @@ body {
     margin-left: -158px;
     margin-top: 103px;
   }
-  .womenMobile{
+  .womenMobile {
     display: none;
   }
-  .card{
+  .card {
     background-position: -291px -85px, -69px 69px;
   }
-  .question{
+  .question {
     margin-left: 40%;
   }
 }
 
 @media (max-width: 600px) {
-  body{
+  body {
     font-weight: 400;
     font-size: 14px;
   }
@@ -172,30 +172,28 @@ body {
     min-height: 460px;
     margin-top: 10vh;
   }
-  .image_box{
+  .image_box {
     display: none;
     visibility: hidden;
   }
 
-  .question{
+  .question {
     margin: 0 auto;
     margin-bottom: 10px;
   }
 
-  .text-section{
-    margin:157px 25px 7px 20px
+  .text-section {
+    margin: 157px 25px 7px 20px;
   }
-  .text-section::before{
+  .text-section::before {
     margin: 0 auto;
     margin-bottom: 20px;
   }
 
-  
-  .womenMobile{
+  .womenMobile {
     display: block;
-  visibility: visible;
-  position: fixed;
-  margin: -120px auto;
+    visibility: visible;
+    position: fixed;
+    margin: -120px auto;
   }
-
 }
