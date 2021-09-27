@@ -169,8 +169,8 @@ body {
     padding: 10px;
     max-width: 950px;
     background-repeat: no-repeat;
-    background-size: 52%;
-    background-position: 134px 2px;
+    background-size: 75%;
+    background-position: 55px 2px;
     margin: 0 auto;
     min-height: 460px;
     margin-top: 10vh;
@@ -196,7 +196,7 @@ body {
   .womenMobile {
     display: block;
     visibility: visible;
-    position: fixed;
+    position: absolute;
     margin: -120px auto;
   }
 }
