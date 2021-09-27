@@ -155,7 +155,7 @@ body {
 @media (max-width: 600px) {
   body {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
   }
   .card {
     display: flex;
