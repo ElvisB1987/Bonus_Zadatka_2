@@ -69,10 +69,14 @@ body {
   margin-bottom: 20px;
 }
 
+.open .questions{
+  font-weight: bold;
+}
+
 .close .answer {
   height: 0px;
   transform: scaleY(0);
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 .open .answer {
@@ -85,17 +89,16 @@ body {
 
 .open .arrow {
   transform: rotate(180deg);
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .close .arrow {
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
 }
 .text-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 70%;
   margin: 44px 14px 83px 36px;
 }
 .question {
@@ -118,11 +121,15 @@ body {
 
 .image_box {
   position: fixed;
-  margin-left: -227px;
-  margin-top: 126px;
+    margin-left: -140px;
+    margin-top: 158px;
 }
 
-@media (max-width: 1080px) {
+.womenMobile{
+  display: none;
+}
+
+@media (max-width: 900px) {
   .questions {
     font-size: 0.8rem;
   }
@@ -134,22 +141,61 @@ body {
     margin-left: -158px;
     margin-top: 103px;
   }
+  .womenMobile{
+    display: none;
+  }
+  .card{
+    background-position: -291px -85px, -69px 69px;
+  }
+  .question{
+    margin-left: 40%;
+  }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 600px) {
+  body{
+    font-weight: 400;
+    font-size: 14px;
+  }
   .card {
     display: flex;
     border-radius: 8px;
     justify-content: center;
     background-color: white;
-    background-image: url(./images/bg-pattern-mobile.svg),
-      url(./images/illustration-woman-online-mobile.svg);
+    background-image: url(./images/bg-pattern-mobile.svg);
     padding: 10px;
     max-width: 950px;
     background-repeat: no-repeat;
-    background-size: 85%, 50%;
-    background-position: -402px -197px, -69px 69px;
+    background-size: 52%;
+    background-position: 134px 2px;
     margin: 0 auto;
     min-height: 460px;
+    margin-top: 10vh;
   }
+  .image_box{
+    display: none;
+    visibility: hidden;
+  }
+
+  .question{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .text-section{
+    margin:157px 25px 7px 20px
+  }
+  .text-section::before{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  
+  .womenMobile{
+    display: block;
+  visibility: visible;
+  position: fixed;
+  margin: -120px auto;
+  }
+
 }
